@@ -199,7 +199,8 @@ static struct delegateMethodsCaching {
                   userPressedButtonCallback:nil
                                  atPosition:POSITION_DEFAULT
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
-                                   delegate:nil];
+                                   delegate:nil
+                                    yOffset:0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -218,7 +219,8 @@ static struct delegateMethodsCaching {
                   userPressedButtonCallback:nil
                                  atPosition:messagePosition
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
-                                   delegate:nil];
+                                   delegate:nil
+                                    yOffset:0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -238,7 +240,8 @@ static struct delegateMethodsCaching {
                   userPressedButtonCallback:nil
                                  atPosition:messagePosition
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
-                                   delegate:nil];
+                                   delegate:nil
+                                    yOffset:0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -259,7 +262,8 @@ static struct delegateMethodsCaching {
                   userPressedButtonCallback:nil
                                  atPosition:messagePosition
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
-                                   delegate:nil];
+                                   delegate:nil
+                                    yOffset:0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -282,7 +286,8 @@ static struct delegateMethodsCaching {
                   userPressedButtonCallback:nil
                                  atPosition:messagePosition
                        canBeDismissedByUser:dismissingEnabled
-                                   delegate:nil];
+                                   delegate:nil
+                                    yOffset:0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -305,7 +310,8 @@ static struct delegateMethodsCaching {
                   userPressedButtonCallback:nil
                                  atPosition:messagePosition
                        canBeDismissedByUser:dismissingEnabled
-                                   delegate:nil];
+                                   delegate:nil
+                                    yOffset:0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
