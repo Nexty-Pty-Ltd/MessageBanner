@@ -200,7 +200,7 @@ static struct delegateMethodsCaching {
                                  atPosition:POSITION_DEFAULT
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
                                    delegate:nil
-                                    yOffset:0.0];
+                                    yOffset:(CGFloat)0.0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -239,7 +239,7 @@ static struct delegateMethodsCaching {
                                  atPosition:messagePosition
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
                                    delegate:nil
-                                    yOffset:0.0];
+                                    yOffset:(CGFloat)0.0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -260,7 +260,7 @@ static struct delegateMethodsCaching {
                                  atPosition:messagePosition
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
                                    delegate:nil
-                                    yOffset:0.0];
+                                    yOffset:(CGFloat)0.0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -282,7 +282,7 @@ static struct delegateMethodsCaching {
                                  atPosition:messagePosition
                        canBeDismissedByUser:USER_DISMISS_DEFAULT
                                    delegate:nil
-                                    yOffset:0.0];
+                                    yOffset:(CGFloat)0.0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -306,7 +306,7 @@ static struct delegateMethodsCaching {
                                  atPosition:messagePosition
                        canBeDismissedByUser:dismissingEnabled
                                    delegate:nil
-                                    yOffset:0.0];
+                                    yOffset:(CGFloat)0.0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
@@ -330,7 +330,7 @@ static struct delegateMethodsCaching {
                                  atPosition:messagePosition
                        canBeDismissedByUser:dismissingEnabled
                                    delegate:nil
-                                    yOffset:0.0];
+                                    yOffset:(CGFloat)0.0];
 }
 
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
