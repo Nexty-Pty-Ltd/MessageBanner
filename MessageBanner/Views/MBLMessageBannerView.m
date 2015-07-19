@@ -225,7 +225,7 @@ static NSMutableDictionary* _messageBannerDesign;
 /**
  The yOffset Number
  */
-@property (nonatomic, strong) CGFloat*     yOffset;
+@property (nonatomic, strong) CGFloat    yOffset;
 
 @end
 
