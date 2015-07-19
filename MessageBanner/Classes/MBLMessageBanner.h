@@ -237,7 +237,7 @@ typedef NS_ENUM(NSInteger, MBLMessageBannerDuration) {
                               atPosition:(MBLMessageBannerPosition)messagePosition
                     canBeDismissedByUser:(BOOL)dismissingEnabled
                                  delegate:(id <MBLMessageBannerDelegate>)aDelegate
-                                 yOffset:(CGFloat *)yOffsetNumber;
+                                 yOffset:(CGFloat)yOffsetNumber;
 
 #pragma mark - Hide Methods
 /**
