@@ -98,7 +98,8 @@
         buttonTitle:(NSString *)buttonTitle
      userPressedButtonCallback:(void (^)(MBLMessageBannerView *banner))userPressedButtonCallback
          atPosition:(MBLMessageBannerPosition)position
-canBeDismissedByUser:(BOOL)dismissingEnabled;
+canBeDismissedByUser:(BOOL)dismissingEnabled
+             yOffset:(NSNumber *)yOffsetNumber;
 
 /**
  Load a custom design file
