@@ -292,7 +292,7 @@ static NSMutableDictionary* _messageBannerDesign;
      userPressedButtonCallback:(void (^)(MBLMessageBannerView* banner))userPressedButtonCallback
          atPosition:(MBLMessageBannerPosition)position
 canBeDismissedByUser:(BOOL)dismissingEnabled
-             yOffset:(CGFloat *)yOffsetNumber;{
+             yOffset:(CGFloat)yOffsetNumber;{
    
     if ((self = [self init])) {
         
