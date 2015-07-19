@@ -222,6 +222,11 @@ static NSMutableDictionary* _messageBannerDesign;
  */
 @property (nonatomic, readwrite, assign) CGFloat  messageViewHeight;
 
+/**
+ The yOffset Number
+ */
+@property (nonatomic, strong) NSNumber*     yOffset;
+
 @end
 
 @implementation MBLMessageBannerView
@@ -286,7 +291,8 @@ static NSMutableDictionary* _messageBannerDesign;
         buttonTitle:(NSString *)buttonTitle
      userPressedButtonCallback:(void (^)(MBLMessageBannerView* banner))userPressedButtonCallback
          atPosition:(MBLMessageBannerPosition)position
-canBeDismissedByUser:(BOOL)dismissingEnabled {
+canBeDismissedByUser:(BOOL)dismissingEnabled
+             yOffset:(NSNumber *)yOffsetNumber;{
    
     if ((self = [self init])) {
         
@@ -312,6 +318,8 @@ canBeDismissedByUser:(BOOL)dismissingEnabled {
         if (_image == nil) {
             _image = [UIImage imageNamed:[_currentDesign objectForKey:DEFAULT_TYPE_IMAGE_KEY]];
         }
+        
+        _yOffset = yOffsetNumber;
         
         // To be declined according to position;
         
