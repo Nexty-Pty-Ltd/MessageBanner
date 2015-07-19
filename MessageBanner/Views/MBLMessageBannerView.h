@@ -76,7 +76,7 @@
 /**
  The yOffset Number
  */
-@property (nonatomic, readwrite, assign) CGFloat    yOffset;
+@property (nonatomic, readonly, assign) CGFloat    yOffset;
 
 /**
  Create a message banner
