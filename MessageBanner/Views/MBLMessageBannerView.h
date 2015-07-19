@@ -74,6 +74,11 @@
 @property (nonatomic, readonly, assign) CGFloat  messageViewHeight;
 
 /**
+ The yOffset Number
+ */
+@property (nonatomic, readwrite, assign) CGFloat    yOffset;
+
+/**
  Create a message banner
 
  @param title The title of the message banner
