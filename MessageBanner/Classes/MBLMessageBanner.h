@@ -136,6 +136,17 @@ typedef NS_ENUM(NSInteger, MBLMessageBannerDuration) {
  @param viewController The view where the message banner will be added
  @param title The title of the message banner
  @param subtitle The subtitle of the message banner
+ @param yOffset The y Offset of the Banner View
+ */
++ (void)showMessageBannerInViewController:(UIViewController *)viewController
+                                    title:(NSString *)title
+                                 subtitle:(NSString *)subtitle
+                                  yOffset:(CGFloat)yOffsetNumber;                                 
+/**
+ Show a message banner
+ @param viewController The view where the message banner will be added
+ @param title The title of the message banner
+ @param subtitle The subtitle of the message banner
  @param messagePosition The position of the message banner @see MessageBannerPosition values
  */
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
