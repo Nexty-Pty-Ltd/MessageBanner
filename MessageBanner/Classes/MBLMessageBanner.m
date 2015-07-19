@@ -319,7 +319,8 @@ static struct delegateMethodsCaching {
                 userPressedButtonCallback:(void (^)(MBLMessageBannerView* banner))userPressedButtonCallback
                                atPosition:(MBLMessageBannerPosition)messagePosition
                      canBeDismissedByUser:(BOOL)dismissingEnabled
-                    delegate:(id<MBLMessageBannerDelegate>)aDelegate {
+                    delegate:(id<MBLMessageBannerDelegate>)aDelegate
+                    yOffset:(NSNumber *)yOffsetNumber{
 
     if (!viewController) {
         viewController = [MBLMessageBanner defaultViewController];
