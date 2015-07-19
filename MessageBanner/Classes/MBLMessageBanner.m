@@ -46,7 +46,7 @@
 /**
  Default display duration used in automatic duration calculs
  */
-#define DISPLAY_DEFAULT_DURATION 2.0
+#define DISPLAY_DEFAULT_DURATION 1.0
 
 
 #pragma mark - Default Message Banner configuration
