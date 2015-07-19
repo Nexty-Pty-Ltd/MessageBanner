@@ -236,7 +236,8 @@ typedef NS_ENUM(NSInteger, MBLMessageBannerDuration) {
                           userPressedButtonCallback:(void (^)(MBLMessageBannerView* banner))userPressedButtonCallback
                               atPosition:(MBLMessageBannerPosition)messagePosition
                     canBeDismissedByUser:(BOOL)dismissingEnabled
-                                 delegate:(id <MBLMessageBannerDelegate>)aDelegate;
+                                 delegate:(id <MBLMessageBannerDelegate>)aDelegate
+                                 yOffset:(NSNumber *)yOffsetNumber;
 
 #pragma mark - Hide Methods
 /**
