@@ -512,7 +512,7 @@ static struct delegateMethodsCaching {
     [UIView animateKeyframesWithDuration:ANIMATION_DURATION delay:0.0f options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionAllowUserInteraction animations:^{
         
         
-        currentMessageBanner.center = target;
+        //currentMessageBanner.center = target;
         
     } completion:^(BOOL finished) {
         
