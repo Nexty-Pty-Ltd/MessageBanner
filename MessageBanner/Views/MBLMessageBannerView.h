@@ -99,7 +99,7 @@
      userPressedButtonCallback:(void (^)(MBLMessageBannerView *banner))userPressedButtonCallback
          atPosition:(MBLMessageBannerPosition)position
 canBeDismissedByUser:(BOOL)dismissingEnabled
-             yOffset:(NSNumber *)yOffsetNumber;
+             yOffset:(CGFloat *)yOffsetNumber;
 
 /**
  Load a custom design file
