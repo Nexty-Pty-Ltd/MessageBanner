@@ -206,6 +206,25 @@ static struct delegateMethodsCaching {
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
                                     title:(NSString *)title
                                  subtitle:(NSString *)subtitle
+                                  yOffset:(NSNumber *)yOffsetNumber{
+    [self showMessageBannerInViewController:viewController
+                                      title:title
+                                   subtitle:subtitle
+                                      image:nil
+                                       type:TYPE_DEFAULT
+                                   duration:DURATION_DEFAULT
+                     userDissmissedCallback:nil
+                                buttonTitle:nil
+                  userPressedButtonCallback:nil
+                                 atPosition:POSITION_DEFAULT
+                       canBeDismissedByUser:USER_DISMISS_DEFAULT
+                                   delegate:nil
+                                    yOffset:yOffsetNumber];
+}
+
++ (void)showMessageBannerInViewController:(UIViewController *)viewController
+                                    title:(NSString *)title
+                                 subtitle:(NSString *)subtitle
                                atPosition:(MBLMessageBannerPosition)messagePosition {
     
     [self showMessageBannerInViewController:viewController
