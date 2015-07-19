@@ -225,7 +225,7 @@ static NSMutableDictionary* _messageBannerDesign;
 /**
  The yOffset Number
  */
-@property (nonatomic, strong) NSNumber*     yOffset;
+@property (nonatomic, strong) CGFloat*     yOffset;
 
 @end
 
@@ -292,7 +292,7 @@ static NSMutableDictionary* _messageBannerDesign;
      userPressedButtonCallback:(void (^)(MBLMessageBannerView* banner))userPressedButtonCallback
          atPosition:(MBLMessageBannerPosition)position
 canBeDismissedByUser:(BOOL)dismissingEnabled
-             yOffset:(NSNumber *)yOffsetNumber;{
+             yOffset:(CGFloat *)yOffsetNumber;{
    
     if ((self = [self init])) {
         
