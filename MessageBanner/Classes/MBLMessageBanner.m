@@ -206,7 +206,7 @@ static struct delegateMethodsCaching {
 + (void)showMessageBannerInViewController:(UIViewController *)viewController
                                     title:(NSString *)title
                                  subtitle:(NSString *)subtitle
-                                  yOffset:(CGFloat *)yOffsetNumber{
+                                  yOffset:(CGFloat)yOffsetNumber{
     [self showMessageBannerInViewController:viewController
                                       title:title
                                    subtitle:subtitle
@@ -351,7 +351,7 @@ static struct delegateMethodsCaching {
         viewController = [MBLMessageBanner defaultViewController];
     }
 
-    MBLMessageBannerView *messageBannerView = [[MBLMessageBannerView alloc] initWithTitle:title subtitle:subtitle image:image type:type duration:duration inViewController:viewController userDissmissedCallback:userDissmissedCallback buttonTitle:buttonTitle userPressedButtonCallback:userPressedButtonCallback atPosition:messagePosition canBeDismissedByUser:dismissingEnabled];
+    MBLMessageBannerView *messageBannerView = [[MBLMessageBannerView alloc] initWithTitle:title subtitle:subtitle image:image type:type duration:duration inViewController:viewController userDissmissedCallback:userDissmissedCallback buttonTitle:buttonTitle userPressedButtonCallback:userPressedButtonCallback atPosition:messagePosition canBeDismissedByUser:dismissingEnabled yOffset:yOffsetNumber];
 
     if (_delegate == nil) {
         [MBLMessageBanner setMessageBannerDelegate:aDelegate];
