@@ -345,7 +345,7 @@ static struct delegateMethodsCaching {
                                atPosition:(MBLMessageBannerPosition)messagePosition
                      canBeDismissedByUser:(BOOL)dismissingEnabled
                     delegate:(id<MBLMessageBannerDelegate>)aDelegate
-                    yOffset:(CGFloat *)yOffsetNumber{
+                    yOffset:(CGFloat)yOffsetNumber{
 
     if (!viewController) {
         viewController = [MBLMessageBanner defaultViewController];
